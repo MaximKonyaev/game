@@ -107,11 +107,11 @@ def fight(hero, opponent):
     if 'n' in ask:
       print(form[2])
       print('{} swings their sword and attacks!'.format(enemy['name']))
-      damage_calculator(hero, opponent)
+      damage_calculator(opponent, hero)
     elif 'y' in ask:
       print(form[1])
       print('{} swings their sword and attacks!'.format(hero['name']))
-      damage_calculator(opponent, hero)
+      damage_calculator(hero, opponent)
     else:
         pass
 
