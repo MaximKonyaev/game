@@ -96,7 +96,7 @@ def damage_calculator(attacker, defender):
     player['exp'] += enemy['prize']
     rank(player)
     input('Type any key to quit')
-    player['atributes']['hearts'] and enemy['atributes']['hearts'] + 50
+    exit(0)
   else:
      print('{} takes {} damage!'.format(defender['name'], damage))
 
